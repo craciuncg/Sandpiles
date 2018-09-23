@@ -65,6 +65,7 @@ namespace Sandpiles
                             sandpile[i, j] = sandpile[i, j] % 4;
                             finish = false;
                             once = true;
+                            j -= 2;
                         }
                         else if (!once)
                         {
@@ -86,6 +87,7 @@ namespace Sandpiles
                             sandpile[j, i] = sandpile[j, i] % 4;
                             finish = false;
                             once = true;
+                            j -= 2;
                         }
                         else if (!once)
                         {

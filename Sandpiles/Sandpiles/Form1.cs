@@ -18,7 +18,7 @@ namespace Sandpiles
         public Sandpile sandpile;
         public int width, height;
 
-        public const int amount = 100000;
+        public const int amount = 50000;
         
 
         public Form1()
